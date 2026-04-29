@@ -60,3 +60,13 @@ footer {
     text-align: center;
     padding: 20px;
 }
+#theme-toggle {
+    margin-top: 20px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    background: #ffffff;
+    color: #3a2d24;
+}
