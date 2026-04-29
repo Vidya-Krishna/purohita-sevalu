@@ -22,10 +22,13 @@ body {
     color: var(--text-color);
 }
 header {
-    background: linear-gradient(var(--header-overlay), var(--header-overlay));
+    background: linear-gradient(rgba(58,45,36,0.8), rgba(58,45,36,0.8));
     color: white;
     text-align: center;
     padding: 90px 20px;
+}
+.dark-mode header {
+    background: linear-gradient(rgba(15,15,15,0.9), rgba(15,15,15,0.9));
 }
 header h1 {
     font-size: 3rem;
