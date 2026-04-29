@@ -78,7 +78,7 @@ background: var(--footer-bg);
     text-align: center;
     padding: 20px;
 }
-#theme-toggle {
+/*#theme-toggle {
     margin-top: 20px;
     padding: 10px 18px;
     border: none;
@@ -87,4 +87,18 @@ background: var(--footer-bg);
     font-family: inherit;
     background: #ffffff;
     color: #3a2d24;
+}*/
+#theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background: none;
+    border: none;
+
+    font-size: 1.4rem;
+    cursor: pointer;
+
+    color: white;
+    padding: 0;
 }
