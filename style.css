@@ -9,11 +9,11 @@
 }
 
 .dark-mode {
-    --bg-color: #1f1a17;
-    --text-color: #d8cbb8;
-    --card-bg: #2b241f;
-    --footer-bg: #171310;
-    --button-bg: #8a4b38;
+    --bg-color: #121212;
+    --text-color: #f5f5f5;
+    --card-bg: #1f1f1f;
+    --footer-bg: #0d0d0d;
+    --button-bg: #6b1f1f;
 }
 body {
     margin: 0;
