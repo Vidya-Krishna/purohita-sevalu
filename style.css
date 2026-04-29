@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@400;700&display=swap');
 
+:root {
+    --bg-color: #f6f1e7;
+    --text-color: #3a2d24;
+    --card-bg: white;
+    --footer-bg: #3a2d24;
+    --button-bg: #8b2e2e;
+}
+
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f5f5f5;
+    --card-bg: #1f1f1f;
+    --footer-bg: #0d0d0d;
+    --button-bg: #6b1f1f;
+}
 body {
     margin: 0;
     font-family: 'Noto Serif Telugu', serif;
-    background: #f6f1e7;
-    color: #3a2d24;
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 header {
     background: linear-gradient(rgba(58,45,36,0.8), rgba(58,45,36,0.8));
@@ -28,7 +43,7 @@ header p {
     padding: 12px 22px;
     text-decoration: none;
     border-radius: 6px;
-    background: #8b2e2e;
+    background: var(--button-bg);
     color: white;
 }
 section {
@@ -42,7 +57,7 @@ section {
     gap: 20px;
 }
 .card {
-    background: white;
+    background: var(--card-bg);
     border-radius: 10px;
     padding: 25px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -55,7 +70,7 @@ section {
     border-radius: 8px;
 }
 footer {
-    background: #3a2d24;
+background: var(--footer-bg);
     color: white;
     text-align: center;
     padding: 20px;
