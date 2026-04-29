@@ -1,0 +1,64 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Serif Telugu', serif;
+    background: #f6f1e7;
+    color: #3a2d24;
+}
+header {
+    background: linear-gradient(rgba(58,45,36,0.8), rgba(58,45,36,0.8));
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #8b2e2e;
+    color: white;
+}
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+}
+.contact-form iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+    border-radius: 8px;
+}
+footer {
+    background: #3a2d24;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
