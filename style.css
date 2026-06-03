@@ -252,7 +252,8 @@ section p {
 
 .service-card {
     flex: 0 0 420px;
-
+    
+    width: 420px;
     min-width: 420px;
     max-width: 420px;
 
