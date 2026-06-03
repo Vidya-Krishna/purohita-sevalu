@@ -256,7 +256,7 @@ section p {
     display: none;
 }
 
-.card {
+/* .card {
     background:
     rgba(15,15,15,0.88);
 
@@ -283,6 +283,42 @@ section p {
 
     box-shadow:
     0 0 40px rgba(212,164,77,0.18);
+} */
+
+.card {
+    min-width: 320px;
+    max-width: 320px;
+
+    flex: 0 0 auto;
+
+    background:
+    rgba(15,15,15,0.88);
+
+    border-radius: 28px;
+
+    overflow: hidden;
+
+    border:
+    1px solid
+    rgba(212,164,77,0.18);
+
+    backdrop-filter: blur(16px);
+
+    transition: all 0.4s ease;
+
+    scroll-snap-align: start;
+
+    box-shadow:
+    0 0 20px rgba(212,164,77,0.08);
+}
+
+.card:hover {
+    transform:
+    translateY(-8px)
+    scale(1.02);
+
+    box-shadow:
+    0 0 45px rgba(212,164,77,0.18);
 }
 
 .card img {
