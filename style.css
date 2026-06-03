@@ -225,94 +225,56 @@ section p {
 
 /* SERVICES */
 
-/* .cards {
-    display: grid;
-
-    grid-template-columns:
-    repeat(auto-fit, minmax(280px, 1fr));
-
-    gap: 35px;
-} */
-
-.cards {
+.services-grid {
     display: flex;
+    flex-wrap: nowrap;
 
     gap: 28px;
 
     overflow-x: auto;
     overflow-y: hidden;
 
+    width: 100%;
+
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 
-    padding: 15px 10px 30px;
+    padding: 20px 10px 35px;
 
     -webkit-overflow-scrolling: touch;
 
     scrollbar-width: none;
 }
 
-.cards::-webkit-scrollbar {
+.services-grid::-webkit-scrollbar {
     display: none;
 }
 
-/* .card {
-    background:
-    rgba(15,15,15,0.88);
+.service-card {
+    flex: 0 0 340px;
+
+    min-width: 340px;
+    max-width: 340px;
+
+    scroll-snap-align: start;
+
+    background: rgba(15,15,15,0.88);
 
     border-radius: 28px;
 
     overflow: hidden;
 
-    border:
-    1px solid
-    rgba(212,164,77,0.18);
-
-    backdrop-filter: blur(16px);
-
-    transition: 0.45s ease;
-
-    box-shadow:
-    0 0 20px rgba(212,164,77,0.08);
-}
-
-.card:hover {
-    transform:
-    translateY(-10px)
-    scale(1.02);
-
-    box-shadow:
-    0 0 40px rgba(212,164,77,0.18);
-} */
-
-.card {
-    min-width: 320px;
-    max-width: 320px;
-
-    flex: 0 0 auto;
-
-    background:
-    rgba(15,15,15,0.88);
-
-    border-radius: 28px;
-
-    overflow: hidden;
-
-    border:
-    1px solid
-    rgba(212,164,77,0.18);
+    border: 1px solid rgba(212,164,77,0.18);
 
     backdrop-filter: blur(16px);
 
     transition: all 0.4s ease;
 
-    scroll-snap-align: start;
-
     box-shadow:
     0 0 20px rgba(212,164,77,0.08);
 }
 
-.card:hover {
+.service-card:hover {
     transform:
     translateY(-8px)
     scale(1.02);
@@ -321,31 +283,10 @@ section p {
     0 0 45px rgba(212,164,77,0.18);
 }
 
-.card img {
+.service-card img {
     width: 100%;
     height: 260px;
-
     object-fit: cover;
-}
-
-.card-content {
-    padding: 28px;
-    text-align: center;
-}
-
-.card-content h3 {
-    color: #fff0d1;
-
-    font-size: 1.6rem;
-
-    margin-bottom: 15px;
-}
-
-.card-content p {
-    color: #d2d2d2;
-
-    line-height: 1.8;
-    font-size: 1rem;
 }
 
 /* CONTACT FORM */
